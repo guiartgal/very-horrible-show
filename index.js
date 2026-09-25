@@ -429,7 +429,7 @@ if (reversed == null) { reversed = false; }
 		exportRoot.Assets.cursor = "pointer"; // Turns the mouse into a pointing hand
 		
 		exportRoot.Assets.addEventListener("click", function(evt) {
-		    window.location.href = "assets.html";
+		    window.open("https://github.com/guiartgal/very-horrible-show/tree/main/Fla", "_blank");
 		});
 		
 		exportRoot.Main.cursor = "pointer"; // Turns the mouse into a pointing hand
